@@ -24,7 +24,7 @@ footer a{
     color: #596c68;
 }
 
-nav{
+#menu{
     margin-right: auto;
     margin-left: auto;
 }
@@ -67,7 +67,7 @@ header{
 
 }
 
-nav{
+#menu{
     margin-right: auto;
     margin-left: auto;
     width: 960px;
@@ -148,12 +148,6 @@ input[type="search"]{
     padding: 5px;
 }
 
-#foot {
-    width: 100px;
-    padding-right: 8em;
-    padding-left: 20em;
-}
-
 .mdl-textfield {
     display: block;
     position: relative;
@@ -227,6 +221,28 @@ input[type="search"]{
     width: 900px;
 }
 
+.info {
+    font-weight: bold;
+}
+
+#tabla-footer {
+    display: flex;
+    margin: 0 auto;
+    width: 960px;
+}
+
 #copy {
+    width: 100%;
+}
+
+#copy td {
+    width: 33.33%;
+}
+
+#foot {
+    width: auto;
+    margin-left: 10px;
+}
+tbody {
     width: 100%;
 }
