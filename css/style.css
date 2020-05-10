@@ -95,7 +95,6 @@ header li{
 }
 
 #BigBang{
-    float: left;
     margin: 15px;
 }
 
@@ -219,7 +218,7 @@ input[type="search"]{
 }
 
 .img_galeria {
-    width: 80px;
+    width: 70px;
     margin: 2px;
 }
 
@@ -290,3 +289,15 @@ footer{
     -moz-box-shadow: 13px -7px 11px 4px rgba(0,0,0,0.75);
     box-shadow: 13px -7px 11px 4px rgba(0,0,0,0.75);
 }*/
+
+#principal {
+    display: flex;
+}
+
+#secundario {
+    display: flex;
+}
+
+#izquierda, #derecha, .galeria {
+    width: 50%;
+}
