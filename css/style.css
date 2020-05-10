@@ -74,7 +74,7 @@ header{
 #UOC{
     height: 60px;
     padding-left: 21em;
-    margin-right: 39em;
+    margin-right: 41em;
     margin-top: 15px;
 }
 
@@ -114,11 +114,20 @@ h1 {
 /*Barra de búsqueda*/
 input[type="search"]{
 	padding: 10px;
-	padding-right: 65px;
+    padding-right: 15px;
     border: none;   
     margin-top: 15px; 
 }
 
+/*BOTÓN DE BUSQUEDA*/
+a.button1{
+     display:inline-block;
+     padding:0.35em 1.2em;
+     font-weight:300;
+     color:#FFFFFF;
+     text-align:center;
+}
+ 
 /*ul del nav*/
 .menu li {
     border-right: 1px solid #9B9A9A;
@@ -126,9 +135,11 @@ input[type="search"]{
     list-style: none outside none;
     width: auto;
     padding: 5px;
-    margin-left: 3px;
 }
 
+#ultimo {
+    border-right: none;
+}
 /*iconos*/
 .nota {
     background-color: green;
@@ -203,7 +214,7 @@ input[type="search"]{
 
 .linea{
     border-top: 5px solid #0077C0;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     width: 500px;
 }
 
@@ -211,7 +222,7 @@ input[type="search"]{
     display:flex;
     width: fit-content;
     justify-content: space-around;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 .contenedor-imagenes img:hover {
@@ -283,6 +294,9 @@ tbody {
     margin-top: 4em;
 }
 
+#iconos a {
+    color: black;
+}
 
 #redes {
     margin-right: 18px;
@@ -293,6 +307,7 @@ tbody {
     text-align: center;
     margin-top: 15px;
 }
+
 
 footer{
     background-color: #b0bec5;  
@@ -339,6 +354,9 @@ footer{
 #actores li img{
     width: 70px;
     margin-bottom: 10px;
+}
+#reparto {
+    margin-left: 18px;
 }
 
 ul li {
