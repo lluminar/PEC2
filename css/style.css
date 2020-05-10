@@ -14,11 +14,9 @@ a{
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-
 #head {
     display: flex;
 }
-
 
 footer a{
     color: #596c68;
@@ -35,7 +33,6 @@ header nav a{
     margin-top: 10px;
     text-decoration: none;
 }
-
 
 .in a{
     color:white;
@@ -72,10 +69,6 @@ header{
     margin-left: auto;
     width: 960px;
     margin-top: 10px;
-}
-
-footer{
-    background-color: #b0bec5;  
 }
 
 #UOC{
@@ -142,17 +135,45 @@ input[type="search"]{
     background: #5cb85c;
     padding: 5px;
 }
-
-.mdl-textfield {
-    display: block;
-    position: relative;
-    width: 100%;
+#estrellas {
+    margin-bottom: 10px;
+}
+#estrella1:hover {
+    color: #D4AF37;
+}
+#estrella2:hover {
+    color: #D4AF37;
+}
+#estrella3:hover {
+    color: #D4AF37;
+}
+#estrella4:hover {
+    color: #D4AF37;
+}
+#estrella5:hover {
+    color: #D4AF37;
 }
 
+#añadir_a_la_lista {
+    color: rgb(53, 125, 128);
+    font-size: 23px;
+}
+
+#bookmark {
+    color: rgb(129, 48, 129);
+    font-size: 23px;
+}
+
+#comentario {
+    color: rgb(131, 10, 10);
+    font-size: 23px;
+
+}
 #sinopsis {
     margin-top: 5rem;
-    font-size: 16px;
+    font-size: 27px;
     color: rgb(119, 17, 17);
+    font-family: 'Caveat', cursive;;
 }
 
 #resumen {
@@ -183,9 +204,8 @@ input[type="search"]{
 .contenedor-imagenes{
     display:flex;
     width: fit-content;
-    margin: auto;
     justify-content: space-around;
-    flex-wrap: wrap;
+    margin-bottom: 25px;
 }
 
 .contenedor-imagenes img:hover {
@@ -199,13 +219,14 @@ input[type="search"]{
 }
 
 .img_galeria {
-    width: 75px;
+    width: 80px;
     margin: 2px;
 }
 
 .galeria {
     width: fit-content;
 }
+
 
 #izquierda {
     width: 900px;
@@ -214,6 +235,8 @@ input[type="search"]{
 .info {
     font-weight: bold;
 }
+
+/*FOOTER*/
 
 #tabla-footer {
     display: flex;
@@ -256,3 +279,14 @@ tbody {
     text-align: center;
     margin-top: 15px;
 }
+
+footer{
+    background-color: #b0bec5;  
+}
+
+/*#actores {
+    background-color: rgba(14, 2, 36, 0.925);
+    -webkit-box-shadow: 13px -7px 11px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 13px -7px 11px 4px rgba(0,0,0,0.75);
+    box-shadow: 13px -7px 11px 4px rgba(0,0,0,0.75);
+}*/
