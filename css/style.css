@@ -44,7 +44,7 @@ header a:hover{
 }
 
 body{
-    background-color:#e2dbc8 ;
+    background-color:bl ;
     text-align: justify;
     background:linear-gradient(rgba(255, 255, 255, 0.288),rgba(255, 255, 255, 1)), url("../img/detalle/detalle-fondo.jpg") center / cover no-repeat;
 
@@ -198,6 +198,7 @@ input[type="search"]{
 .linea{
     border-top: 5px solid #0077C0;
     margin-bottom: 40px;
+    width: 500px;
 }
 
 .contenedor-imagenes{
@@ -284,7 +285,6 @@ footer{
 }
 
 /*#actores {
-    background-color: rgba(14, 2, 36, 0.925);
     -webkit-box-shadow: 13px -7px 11px 4px rgba(0,0,0,0.75);
     -moz-box-shadow: 13px -7px 11px 4px rgba(0,0,0,0.75);
     box-shadow: 13px -7px 11px 4px rgba(0,0,0,0.75);
@@ -299,5 +299,26 @@ footer{
 }
 
 #izquierda, #derecha, .galeria {
-    width: 50%;
+    width: 60%;
+}
+
+#derecha {
+    margin-left: 100px;
+    margin-top: 60px;
+    -webkit-box-shadow: 13px -7px 11px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 13px -7px 11px 4px rgba(0,0,0,0.75);
+    box-shadow: 13px -7px 11px 4px rgba(0,0,0,0.75);
+}
+
+#derecha ul {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+#actores li {
+    margin-left: 20px;
+}
+
+#actores li img{
+    width: 70px;
 }
