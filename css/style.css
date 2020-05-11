@@ -206,10 +206,9 @@ a.button1{
 
 
 /*GALERIA DE IMAGENES*/
-
-
 .galeria h1{
     text-align: left;
+    margin: 4px;
 }
 
 .linea{
